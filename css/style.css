@@ -1,3 +1,12 @@
-.btn btn-outline-success my-2 my-sm-0 {
-  outline-color: red;
+.navbar-brand{
+  min-height: 55px;
+  padding: 0 15px 10px;
+  height: 100px;
+}
+.img {
+  height: 10  0px;
+  width: 100px;
+}
+.container-fluid {
+  padding: 0;
 }
