@@ -1,0 +1,93 @@
+html, body {
+  height:100%;
+  width:100%;
+}
+.navbar {
+  background-color: #ebe134;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px 5px ;
+}
+.navbar-default .navbar-nav li a {
+  color: black;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  color: white;
+}
+#home {
+  background: url(img/7.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+  color: black;
+}
+h3 {
+  color: black;
+}
+h4 {
+  font
+  color: black;
+}
+.padding {
+  padding: 80px 0;
+}
+.padding2 {
+  padding: 0 350px 80px 350px;
+}
+.padding img {
+  width: 100%;
+}
+#fixed {
+  background: url(img/7.jpg) no-repeat center center fixed;
+  display; table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+footer {
+  width: 100%;
+  background-color: #ebe134;
+  padding: 5% 5% 10% 5%;
+  color: #FFF;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: black;
+}
+.fa:hover {
+  color: white;
+  text-decoration: none;
+}
+.icon {
+  max-width: 200px
+}
+
+@media (max-width: 768px) {
+  .landing h1 {
+    font-size: 300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
